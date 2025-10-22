@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 from pydantic import BaseModel, Field
 from typing import Literal, Optional
 from langchain_core.output_parsers import PydanticOutputParser
-from langchain.prompts import PromptTemplate
+from langchain_core.prompts import PromptTemplate
 load_dotenv()
 
 model = ChatGoogleGenerativeAI(model='gemini-2.5-flash', api_key= 'AIzaSyCS36bFxt4Y08dqom9MqrsGNEStZ6MmIPM')
